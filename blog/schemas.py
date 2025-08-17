@@ -13,9 +13,11 @@ class User(BaseModel):
 class ShowUser(BaseModel):
     name: str
     email: str
-
+    blog: List
 
 class ShowBlog(BaseModel):
     title: str
     body: str
+
+    creator: ShowUser
   

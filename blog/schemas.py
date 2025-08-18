@@ -24,4 +24,6 @@ class ShowBlog(BaseModel):
 
     creator: ShowUser
 
-    
+class Login(BaseModel):
+    username: str
+    password: str

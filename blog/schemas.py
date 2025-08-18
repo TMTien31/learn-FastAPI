@@ -15,6 +15,7 @@ class User(BaseModel):
 class ShowUser(BaseModel):
     name: str
     email: str
+    blog: List
 
     blogs: List[Blog] = []
 
